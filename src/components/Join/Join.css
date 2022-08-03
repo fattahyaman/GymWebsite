@@ -1,0 +1,31 @@
+.join {
+  display: flex;
+  padding: 0 2rem;
+  gap: 10rem;
+}
+.left-j {
+  color: white;
+  font-size: 3rem;
+  text-transform: uppercase;
+  position: relative;
+}
+.righ-j {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.email-container {
+  display: flex;
+  gap: 3rem;
+  background-color: grey;
+  padding: 1rem 2rem;
+}
+.email-container > input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.btn-j {
+  background-color: var(--orange);
+  color: white;
+}

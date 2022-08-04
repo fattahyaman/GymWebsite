@@ -130,3 +130,25 @@
   z-index: -1;
   width: 15rem;
 }
+@media screen and (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+  }
+  .the-best-ad {
+    margin-top: 0;
+    font-size: small;
+    align-self: center;
+    transform: scale(0.8);
+  }
+  .hero-text {
+    font-size: xx-large;
+    align-items: center;
+    justify-content: center;
+  }
+  .figures > div > span:nth-of-type(1) {
+    font-size: large;
+  }
+  .figures > div > span:nth-of-type(2) {
+    font-size: small;
+  }
+}
